@@ -1,6 +1,144 @@
 <div align="center">
 
 ```mermaid
+mindmap
+  root((Artificial Intelligence))
+
+    AI Foundations
+      Mathematics
+        Linear Algebra
+        Calculus
+        Probability
+        Statistics
+      Logic
+      Algorithms
+      Optimization
+
+    Symbolic AI
+      Expert Systems
+      Knowledge Representation
+      Rule-Based Systems
+      Logic Programming
+      Ontologies
+      Automated Reasoning
+
+    Machine Learning
+      Supervised Learning
+        Classification
+        Regression
+
+      Unsupervised Learning
+        Clustering
+        Dimensionality Reduction
+        Association Rules
+
+      Semi-Supervised Learning
+      Self-Supervised Learning
+
+      Reinforcement Learning
+        Q-Learning
+        PPO
+        DQN
+
+    Deep Learning
+      Neural Networks
+      CNN
+      RNN
+      LSTM
+      GRU
+      Autoencoders
+      GANs
+      Transformers
+
+    Generative AI
+      Large Language Models
+      Image Generation
+      Video Generation
+      Audio Generation
+      Multimodal AI
+      Foundation Models
+
+    Natural Language Processing
+      NLU
+      NLG
+      Translation
+      Question Answering
+      Chatbots
+      Information Extraction
+
+    Computer Vision
+      Image Classification
+      Object Detection
+      Image Segmentation
+      OCR
+      Facial Recognition
+
+    Speech & Audio AI
+      Speech Recognition
+      Speech Synthesis
+      Speaker Recognition
+      Audio Processing
+
+    Robotics & Autonomous Systems
+      Robotics
+      Autonomous Vehicles
+      Path Planning
+      Control Systems
+      Multi-Agent Systems
+
+    AI Engineering
+      Data Engineering
+      Feature Engineering
+      Model Training
+      Evaluation
+      Deployment
+      Monitoring
+
+    MLOps
+      CI/CD
+      Model Registry
+      Drift Detection
+      Retraining
+
+    Responsible AI
+      Explainable AI
+      Fairness
+      Security
+      Privacy
+      Ethics
+      Trustworthy AI
+
+    Applications
+      Healthcare
+      Finance
+      Cybersecurity
+      Education
+      Manufacturing
+      Agriculture
+      Smart Cities
+
+    Future AI
+      Neuro-Symbolic AI
+      Causal AI
+      Agentic AI
+      Artificial General Intelligence
+```
+# **`Awesome`** Artificial Intelligence ([AI](https://wikipedia.org/wiki/Artificial_intelligence)) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+</div>
+
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
+[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/r/ArtificialInteligence/new/)
+
+<p align="center">
+    <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
+    &nbsp;
+    <a href="https://www.youtube.com/@CyberThreatDefense"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
+    &nbsp;
+    <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
+    <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
+</p>
+
+```mermaid
 flowchart TD
     AI["Artificial Intelligence (AI)"]
 
@@ -40,25 +178,58 @@ flowchart TD
     NLP --> N3["Machine Translation"]
 
 ```
-# **`Awesome`** Artificial Intelligence ([AI](https://wikipedia.org/wiki/Artificial_intelligence)) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-</div>
-
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
-[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/r/ArtificialInteligence/new/)
-
-<p align="center">
-    <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
-    &nbsp;
-    <a href="https://www.youtube.com/@CyberThreatDefense"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
-    &nbsp;
-    <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
-    <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
-</p>
 
 ## 📖 Contents
 - [My Awesome Lists](#my-awesome-lists)
 - [Contributing](#contributing)
 - [Contributors](#contributors)
+
+```mermaid
+flowchart TD
+
+    AI["Artificial Intelligence"]
+
+    AI --> F["AI Foundations"]
+    AI --> SAI["Symbolic AI"]
+    AI --> ML["Machine Learning"]
+    AI --> NLP["Natural Language Processing"]
+    AI --> CV["Computer Vision"]
+    AI --> SPEECH["Speech & Audio AI"]
+    AI --> ROB["Robotics & Autonomous Systems"]
+    AI --> RAI["Responsible AI"]
+
+    ML --> SUP["Supervised Learning"]
+    ML --> UNSUP["Unsupervised Learning"]
+    ML --> SEMI["Semi-Supervised Learning"]
+    ML --> SELF["Self-Supervised Learning"]
+    ML --> RL["Reinforcement Learning"]
+    ML --> DL["Deep Learning"]
+
+    DL --> CNN["CNN"]
+    DL --> RNN["RNN/LSTM"]
+    DL --> AE["Autoencoders"]
+    DL --> GAN["GANs"]
+    DL --> TR["Transformers"]
+
+    TR --> FM["Foundation Models"]
+
+    FM --> GENAI["Generative AI"]
+
+    GENAI --> LLM["LLMs"]
+    GENAI --> IMG["Image Generation"]
+    GENAI --> VID["Video Generation"]
+    GENAI --> MM["Multimodal AI"]
+
+    ROB --> AV["Autonomous Vehicles"]
+    ROB --> AG["AI Agents"]
+    ROB --> MAS["Multi-Agent Systems"]
+
+    RAI --> XAI["Explainable AI"]
+    RAI --> FAIR["Fairness"]
+    RAI --> PRIV["Privacy"]
+    RAI --> SEC["Security"]
+```
+
 
 ```text
 Artificial Intelligence (AI)
